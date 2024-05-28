@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    src: local('BC_Alphapipe_RB_SemiBold'), url(../fonts/BC_Alphapipe_RB_SemiBold.ttf);
+}
+
+.navMain{
+    margin-top: 3vh;
+}
+.navMainContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.LigthIcons{
+    width: 3vh;
+    padding: 0.5vh;
+}
+a{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    cursor: pointer;
+    font-size: x-large;
+}
+img{
+    cursor: pointer;
+}
