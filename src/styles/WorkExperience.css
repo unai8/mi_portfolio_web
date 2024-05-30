@@ -1,0 +1,91 @@
+@font-face{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    src: local('BC_Alphapipe_RB_SemiBold'), url(../fonts/BC_Alphapipe_RB_SemiBold.ttf);
+}
+
+@font-face{
+    font-family: 'BC_Alphapipe_RB_Bold_Italic';
+    src: local('BC_Alphapipe_RB_Bold_Italic'), url(../fonts/BC_Alphapipe_RB_Bold_Italic.ttf);
+}
+
+@font-face{
+    font-family: 'BC_Alphapipe_L_Regular';
+    src: local('BC_Alphapipe_L_Regular'), url(../fonts/BC_Alphapipe_L_Regular.ttf);
+}
+
+@font-face{
+    font-family: 'BC_Alphapipe_TSB_Bold';
+    src: local('BC_Alphapipe_TSB_Bold'), url(../fonts/BC_Alphapipe_TSB_Bold.ttf);
+}
+
+.WorkExperienceMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.WorkExperienceMainTitle p{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    font-size: 30px;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+}
+
+.WorkExperienceMainTimeline{
+    border-left: 2px solid #604696;
+    margin: 0vh 5vh 0vh 5vh;
+    padding: 5vh 0vh 5vh 0vh;
+    position: relative;
+}
+
+
+
+.WorkExperienceMainTimelineElement{
+    padding-left: 5vh;
+}
+.WorkExperienceMainTimelineElementFirstTitle{
+    position: relative;
+    margin: 0 0 0.1vh 0;
+}
+
+.WorkExperienceMainTimelineElementFirstTitle::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -64px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #604696;
+    border-radius: 50%;
+}
+
+.WorkExperienceMainTimelineElementSecondTitle{
+    margin: 0 0 0 0;
+}
+
+.WorkExperienceMainTimelineElementThirdTitle{
+    margin: 0.2vh 0 0 0;
+}
+
+.WorkExperienceMainTimelineElementFirstTitle{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    font-size: 28px;
+}
+
+.WorkExperienceMainTimelineElementSecondTitle{
+    font-family: 'BC_Alphapipe_TSB_Bold';
+    font-size: 20px;
+}
+
+.WorkExperienceMainTimelineElementThirdTitle{
+    font-family: 'BC_Alphapipe_L_Regular';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.WorkExperienceMainTimelineElementDescription{
+    font-family: 'BC_Alphapipe_L_Regular';
+}
