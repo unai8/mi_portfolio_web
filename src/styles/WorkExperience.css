@@ -28,14 +28,13 @@
 
 .WorkExperienceMainTitle p{
     font-family: 'BC_Alphapipe_RB_SemiBold';
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 12vh;
     margin-bottom: 12vh;
 }
 
 .WorkExperienceMainTimeline{
-    border-left: 2px solid #604696;
-    margin: 0vh 5vh 0vh 5vh;
+    border-left: 3px solid #604696;
     padding: 5vh 0vh 5vh 0vh;
     position: relative;
 }
@@ -43,18 +42,19 @@
 
 
 .WorkExperienceMainTimelineElement{
-    padding-left: 5vh;
+    padding-left: 50px;
 }
 .WorkExperienceMainTimelineElementFirstTitle{
     position: relative;
     margin: 0 0 0.1vh 0;
+    color: #604696;
 }
 
 .WorkExperienceMainTimelineElementFirstTitle::before{
     content: "";
     position: absolute;
     top: 50%;
-    left: -64px;
+    left: -67px;
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
@@ -62,13 +62,8 @@
     border-radius: 50%;
 }
 
-.WorkExperienceMainTimelineElementSecondTitle{
-    margin: 0 0 0 0;
-}
 
-.WorkExperienceMainTimelineElementThirdTitle{
-    margin: 0.2vh 0 0 0;
-}
+
 
 .WorkExperienceMainTimelineElementFirstTitle{
     font-family: 'BC_Alphapipe_RB_SemiBold';
@@ -78,12 +73,23 @@
 .WorkExperienceMainTimelineElementSecondTitle{
     font-family: 'BC_Alphapipe_TSB_Bold';
     font-size: 20px;
+    margin: 0 0 0 0;
 }
 
 .WorkExperienceMainTimelineElementThirdTitle{
     font-family: 'BC_Alphapipe_L_Regular';
     font-weight: 600;
     font-size: 14px;
+    margin: 0 0 0 0;
+    margin: 0.2vh 0 0 0;
+}
+
+.WorkExperienceMainTimelineElementFourthTitle{
+    font-family: 'BC_Alphapipe_L_Regular';
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0.2vh 0 0 0;
+    color: #604696;
 }
 
 .WorkExperienceMainTimelineElementDescription{

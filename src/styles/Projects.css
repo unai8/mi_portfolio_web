@@ -1,0 +1,83 @@
+@font-face{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    src: local('BC_Alphapipe_RB_SemiBold'), url(../fonts/BC_Alphapipe_RB_SemiBold.ttf);
+}
+
+@font-face{
+    font-family: 'BC_Alphapipe_RB_Bold_Italic';
+    src: local('BC_Alphapipe_RB_Bold_Italic'), url(../fonts/BC_Alphapipe_RB_Bold_Italic.ttf);
+}
+
+@font-face{
+    font-family: 'BC_Alphapipe_L_Regular';
+    src: local('BC_Alphapipe_L_Regular'), url(../fonts/BC_Alphapipe_L_Regular.ttf);
+}
+
+@font-face{
+    font-family: 'BC_Alphapipe_TSB_Bold';
+    src: local('BC_Alphapipe_TSB_Bold'), url(../fonts/BC_Alphapipe_TSB_Bold.ttf);
+}
+
+.ProjectsMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProjectsMainElement{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectsMainElementTitle{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    font-size: 40px;
+    margin-top: 12vh;
+    margin-bottom: 12vh
+}
+.ProjectsMainElementSubTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    
+}
+.ProjectsMainElementSubTitleCase{
+    content: '';
+    width: 90%;
+    height: 1.3em;
+    background-color: #604696;
+}
+
+.ProjectsMainElementSubTitle p{
+    font-family: 'BC_Alphapipe_L_Regular';
+    font-size: 20px;
+    white-space: nowrap;
+    color: #604696;
+    font-weight: 800;
+    margin-right: 20px;
+}
+
+.ProjectsMainElementPhotoContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.ProjectsMainElementPhoto{
+    width: 80%;
+    border-radius: 10%;
+}
+
+.ProjectsMainElementPhotoLogo{
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
