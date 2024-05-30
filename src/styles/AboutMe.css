@@ -1,0 +1,75 @@
+@font-face{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    src: local('BC_Alphapipe_RB_SemiBold'), url(../fonts/BC_Alphapipe_RB_SemiBold.ttf);
+}
+
+@font-face{
+    font-family: 'BC_Alphapipe_L_Regular';
+    src: local('BC_Alphapipe_L_Regular'), url(../fonts/BC_Alphapipe_L_Regular.ttf);
+}
+
+@font-face{
+    font-family: 'BC_Alphapipe_RB_Bold_Italic';
+    src: local('BC_Alphapipe_RB_Bold_Italic'), url(../fonts/BC_Alphapipe_RB_Bold_Italic.ttf);
+}
+
+
+.aboutMeMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutMeMainTitle{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    font-size: 40px;
+    margin: 12vh 0 10vh 0;
+}
+
+.aboutMeMainTitlePhotoDescription{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMeMainTitlePhotoDescription img{
+    width: 22em;
+}
+
+.aboutMeMainTitlePhotoDescription p{
+    font-family: 'BC_Alphapipe_L_Regular';
+}
+
+.aboutMeMainTitleDescription p{
+    font-family: 'BC_Alphapipe_L_Regular';
+}
+
+.aboutMeMainSkills p{
+    font-size: 28px;
+    font-family: 'BC_Alphapipe_RB_Bold_Italic';
+    color: #604696;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMeMainSkillsPhotoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.aboutMeMainSkillsPhotoContainer img{
+    border-radius: 25%;
+    width: 10%;
+    height: 10%;
+}
+
+.underlineText{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    color: #604696;
+    
+}

@@ -33,16 +33,20 @@
 .ProjectsMainElementTitle{
     font-family: 'BC_Alphapipe_RB_SemiBold';
     font-size: 40px;
-    margin-top: 12vh;
-    margin-bottom: 12vh
+    margin: 12vh 0 12vh 0;
 }
 .ProjectsMainElementSubTitle{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: start;
-    
+    padding-bottom: 5%;
 }
+
+.ProjectsMainElementSubTitle p{
+    text-transform: uppercase;
+}
+
 .ProjectsMainElementSubTitleCase{
     content: '';
     width: 90%;
@@ -60,11 +64,11 @@
 }
 
 .ProjectsMainElementPhotoContainer{
-    position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    position: relative;
 }
 
 .ProjectsMainElementPhoto{
@@ -75,9 +79,19 @@
 .ProjectsMainElementPhotoLogo{
     width: 10%;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    right: 10%;
+    bottom: 3%;
 }
 
+.ProjectsMainElementDescription{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'BC_Alphapipe_L_Regular';
+    padding-top: 5%;
+}
 
-
+.ProjectsMainElementDescriptionLine{
+    color: #604696;
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+}

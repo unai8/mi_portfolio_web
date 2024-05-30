@@ -12,14 +12,21 @@
     align-items: center;
 }
 
+.navMainContainerElement a{
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.navMainContainerElement a:hover{
+    color: #604696;
+}
 .LigthIcons{
     width: 3vh;
     padding: 0.5vh;
-}
-a{
-    font-family: 'BC_Alphapipe_RB_SemiBold';
-    cursor: pointer;
-    font-size: x-large;
 }
 img{
     cursor: pointer;

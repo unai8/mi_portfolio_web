@@ -5,7 +5,7 @@ import '../styles/WorkExperience.css'
 export default function WorkExperience() {
 
     return (
-      <article className="WorkExperienceMain">
+      <article id='WorkExperience' className="WorkExperienceMain">
         <div className='WorkExperienceMainTitle'>
             <p>Experiencia Laboral</p>
         </div>
