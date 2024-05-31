@@ -11,8 +11,12 @@ export default function Contact() {
                     <img src={SecondaryLogo}/>
                 </div>
                 <div className='ContactMainElementsButtoms'>
-                    <a href='mailto:aunai888@gmail.com'>aunai888@gmail.com</a>
-                    <a href='tel:688843432'>+34 688 84 34 32</a>
+                    <div className='ContactMainElementsButtomsElement'>
+                        <a href='mailto:aunai888@gmail.com'>aunai888@gmail.com</a>
+                    </div>
+                    <div className='ContactMainElementsButtomsElement'>
+                        <a href='tel:688843432'>+34 688 84 34 32</a>
+                    </div>
                 </div>
             </div>
         </section>

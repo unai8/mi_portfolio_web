@@ -25,11 +25,12 @@
     justify-content: center;
 }
 .presentationMainImage{
-    width: 45vh;
+    width: 65%;
 }
 .presentationMainText{
     align-self: flex-start;
-    margin-bottom: 1vh;
+
+    
 }
 .presentationMainTextLittleTitle{
     font-size: 30px;
@@ -77,3 +78,6 @@
     margin-right: 0.7vh;
 }
 
+@media (max-width: 450px){
+    
+}

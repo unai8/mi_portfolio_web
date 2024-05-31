@@ -33,7 +33,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:50px;
+    gap: 50px;
 }
 
 .ContactMainElementsButtoms a{
@@ -45,4 +45,12 @@
     border-radius: 10%;
     font-size: 18px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.ContactMainElementsButtomsElement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

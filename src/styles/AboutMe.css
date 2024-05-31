@@ -31,6 +31,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap:20px;
 }
 
 .aboutMeMainTitlePhotoDescription img{
@@ -59,17 +60,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5%;
+    gap: 2%;
 }
 
 .aboutMeMainSkillsPhotoContainer img{
     border-radius: 25%;
-    width: 10%;
-    height: 10%;
+    width: 18%;
+    height: 18%;
 }
 
 .underlineText{
     font-family: 'BC_Alphapipe_RB_SemiBold';
     color: #604696;
     
+}
+
+
+@media (max-width: 750px){
+    .aboutMeMainTitlePhotoDescription img{
+        width: 50%;
+    }
 }

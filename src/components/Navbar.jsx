@@ -1,6 +1,6 @@
 import '../styles/Navbar.css'
 import React from 'react'
-import Sun from '../assets/selected_sun.svg'
+import Sun from '../assets/SOL.svg'
 import Moon from '../assets/LUNA.svg'
 
 export default function Navbar() {

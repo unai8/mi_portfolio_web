@@ -1,6 +1,11 @@
 import '../styles/AboutMe.css'
 import AboutMePhoto from '../assets/UnaiAlfaro.jpg'
-import Javascript from '../assets/javascript.png'
+import Javascript from '../assets/javascript.svg'
+import Python from '../assets/python.svg'
+import NodeJS from '../assets/node_js.svg'
+import MifrosoftNet from '../assets/microsoft_net.svg'
+import ReactNative from '../assets/react_native.svg'
+
 
 export default function AboutMe() {
     
@@ -19,10 +24,11 @@ export default function AboutMe() {
             <div className='aboutMeMainSkills'>
                 <p>APTITUDES</p>
                 <div className='aboutMeMainSkillsPhotoContainer'>
+                    <img src={MifrosoftNet}/>
+                    <img src={Python}/>
                     <img src={Javascript}/>
-                    <img src={Javascript}/>
-                    <img src={Javascript}/>
-                    <img src={Javascript}/>
+                    <img src={NodeJS}/>
+                    <img src={ReactNative}/>
                 </div>
             </div>
         </section>

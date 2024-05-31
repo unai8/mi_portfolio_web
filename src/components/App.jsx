@@ -10,7 +10,7 @@ import '../styles/App.css'
 export default function App() {
 
   return (
-    <div style={{padding: '0 5% 0 5%'}}>
+    <div className='Main'>
       <Navbar/>
       <Presentation/>
       <WorkExperience/>

@@ -4,12 +4,18 @@
 }
 
 .navMain{
-    margin-top: 3vh;
+    padding-top: 3%;
 }
 .navMainContainer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.navMainContainerElement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navMainContainerElement a{
@@ -21,13 +27,38 @@
     font-size: 1.5em;
 }
 
+.navMainContainerIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navMainContainerElement a:hover{
     color: #604696;
 }
-.LigthIcons{
-    width: 3vh;
-    padding: 0.5vh;
-}
-img{
+
+.navMainContainerIcons img{
     cursor: pointer;
+    width: 4em;
 }
+
+@media (max-width: 750px){
+    .navMainContainerElement a{
+        font-size: 1em;
+    }
+    .navMainContainerIcons img{
+        width: 3em;
+    }
+}
+
+@media (max-width: 550px){
+    .navMainContainerElement a{
+        font-size: 0.7em;
+    }
+
+    .navMainContainerIcons img{
+        font-size: 0.6em;
+    }
+}
+
+
