@@ -43,10 +43,6 @@
     padding-bottom: 5%;
 }
 
-.ProjectsMainElementSubTitle p{
-    text-transform: uppercase;
-}
-
 .ProjectsMainElementSubTitleCase{
     content: '';
     width: 90%;
@@ -61,6 +57,7 @@
     color: #604696;
     font-weight: 800;
     margin-right: 20px;
+    text-transform: uppercase;
 }
 
 .ProjectsMainElementPhotoContainer{
@@ -85,7 +82,8 @@
 
 .ProjectsMainElementDescription{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     justify-content: flex-start;
     font-family: 'BC_Alphapipe_L_Regular';
     padding-top: 5%;
@@ -94,4 +92,29 @@
 .ProjectsMainElementDescriptionLine{
     color: #604696;
     font-family: 'BC_Alphapipe_RB_SemiBold';
+}
+
+.ProjectsMainElementDescriptionTitle{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    font-size: 20px;
+}
+
+.ProjectsMainElementDescriptionPurple{
+    color: #604696;
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+}
+
+@media(max-width: 380px){
+    .ProjectsMainElementTitle{
+        font-size: 30px;
+    }
+    .ProjectsMainElementSubTitle p{
+        font-size: 15px;
+    }
+    .ProjectsMainElementDescriptionTitle{
+        font-size: 18px;
+    }
+    .ProjectsMainElementDescription{
+        font-size: 14px;
+    }
 }

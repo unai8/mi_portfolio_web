@@ -18,7 +18,7 @@ export default function Navbar() {
               <a href='#AboutMe'>Sobre Mi</a>
             </div>
             <div className='navMainContainerElement'>
-              <a>Contacto</a>
+              <a href='#Contact'>Contacto</a>
             </div>
             <div className='navMainContainerIcons'>
                 <img className='LigthIcons' src={Sun}/>

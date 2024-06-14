@@ -36,25 +36,26 @@
 .WorkExperienceMainTimeline{
     border-left: 3px solid #604696;
     padding: 5vh 0vh 5vh 0vh;
-    position: relative;
+    width: 100%;
 }
 
 
 
 .WorkExperienceMainTimelineElement{
-    padding-left: 50px;
+    padding-left: 35px;
 }
 .WorkExperienceMainTimelineElementFirstTitle{
     position: relative;
     margin: 0 0 0.1vh 0;
     color: #604696;
+    font-size: 20px;
 }
 
 .WorkExperienceMainTimelineElementFirstTitle::before{
     content: "";
     position: absolute;
     top: 50%;
-    left: -67px;
+    left: -52px;
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
@@ -94,4 +95,28 @@
 
 .WorkExperienceMainTimelineElementDescription{
     font-family: 'BC_Alphapipe_L_Regular';
+}
+
+@media(max-width: 380px){
+    .WorkExperienceMainTitle p{
+        font-size: 30px;
+    }
+    .WorkExperienceMainTimelineElementFirstTitle{
+        font-size: 20px;
+    }
+    .WorkExperienceMainTimelineElementSecondTitle{
+        font-size: 16px;
+    }
+    .WorkExperienceMainTimelineElementThirdTitle{
+        font-size: 12px;
+    }
+    .WorkExperienceMainTimelineElementFourthTitle{
+        font-size: 12px;
+    }
+    .WorkExperienceMainTimelineElementDescription{
+        font-size: 14px;
+    }
+    .WorkExperienceMainTimelineElementFirstTitle::before{
+        left: -51px;
+    }
 }

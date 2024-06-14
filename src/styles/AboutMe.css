@@ -13,6 +13,11 @@
     src: local('BC_Alphapipe_RB_Bold_Italic'), url(../fonts/BC_Alphapipe_RB_Bold_Italic.ttf);
 }
 
+@font-face{
+    font-family: 'BC_Alphapipe_TSB_Bold';
+    src: local('BC_Alphapipe_TSB_Bold'), url(../fonts/BC_Alphapipe_TSB_Bold.ttf);
+}
+
 
 .aboutMeMain{
     display: flex;
@@ -28,18 +33,20 @@
 
 .aboutMeMainTitlePhotoDescription{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap:20px;
 }
 
 .aboutMeMainTitlePhotoDescription img{
-    width: 22em;
+    min-width: 30%;
+    max-width: 30%;
 }
 
 .aboutMeMainTitlePhotoDescription p{
     font-family: 'BC_Alphapipe_L_Regular';
+    margin-top: 5%;
 }
 
 .aboutMeMainTitleDescription p{
@@ -60,11 +67,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 2%;
 }
 
-.aboutMeMainSkillsPhotoContainer img{
+.aboutMeMainSkillsPhotoContainerElements{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.aboutMeMainSkillsPhotoContainerElements img{
     border-radius: 25%;
+    width: 50%;
 }
 
 .underlineText{
@@ -72,10 +89,79 @@
     color: #604696;
     
 }
+.aboutMeMainTimeline{
+    border-left: 3px solid #604696;
+    padding: 5vh 0vh 5vh 0vh;
+    position: relative;
+    width: 100%;
+}
+
+.aboutMeMainTimelineElement{
+    padding-left: 50px;
+}
+.aboutMeMainTimeline > p{
+    font-size: 28px;
+    font-family: 'BC_Alphapipe_RB_Bold_Italic';
+    color: #604696;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
-@media (max-width: 750px){
-    .aboutMeMainTitlePhotoDescription img{
-    
+.aboutMeMainTimelineElementFirstTitle{
+    position: relative;
+    margin: 0 0 0.1vh 0;
+    color: #604696;
+    font-family: 'BC_Alphapipe_TSB_Bold';
+    font-size: 25px;
+    font-weight: 100;
+    margin: 0.2vh 0 0 0;
+}
+.aboutMeMainTimelineElementSecondTitle{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    font-size: 18px;
+    margin: 0.2vh 0 0 0;
+    color: #604696;
+}
+
+.aboutMeMainTimelineElementDescription{
+    font-family: 'BC_Alphapipe_L_Regular';
+    margin: 2% 0 2% 0;
+}
+
+.aboutMeMainTimelineElementFirstTitle img{
+    width: 11%;
+    object-fit: cover;
+}
+
+.aboutMeMainTimelineElementFirstTitle::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -67px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #604696;
+    border-radius: 50%;
+}
+
+@media(max-width: 380px){
+    .aboutMeMainTitle{
+        font-size: 30px;
+    }
+    .aboutMeMainTimelineElement{
+        padding-left: 35px;
+    }
+    .aboutMeMainTimelineElementFirstTitle{
+        font-size: 20px;
+    }
+    .aboutMeMainTimelineElementFirstTitle::before{
+        left: -51px;
+    }
+    .aboutMeMainSkillsPhotoContainerElements img{
+        width: 100px;
     }
 }

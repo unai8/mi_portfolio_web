@@ -1,7 +1,6 @@
 
 import '../styles/Projects.css'
-import photo1 from '../assets/photo1.jpg'
-import photo2 from '../assets/photo2.jpg'
+import photo1 from '../assets/portfolio.jpg'
 import principal_logo from '../assets/principal_logo.svg'
 
 export default function Projects() {
@@ -14,7 +13,7 @@ export default function Projects() {
             </div>
             <div className='ProjectsMainElement'>
                 <div className='ProjectsMainElementSubTitle'>
-                    <p>WEB PAGE</p>
+                    <p>Portfolio Web</p>
                     <div className='ProjectsMainElementSubTitleCase'>
                     </div>
                 </div>
@@ -23,22 +22,23 @@ export default function Projects() {
                     <img className='ProjectsMainElementPhotoLogo' src={principal_logo}></img>
                 </div>
                 <div className='ProjectsMainElementDescription'>
-                    <p>Nam mi felis, congue vitae massa at, imperdiet facilisis sem. Suspendisse sagittis urna tristique elit ornare mollis. <span className='ProjectsMainElementDescriptionLine'>Maecenas ac ex vitae lacus viverra lacinia molestie commodo quam.</span> Quisque aliquet, odio ut sollicitudin dictum, nibh mi tincidunt leo, vitae blandit sem nisi eu nulla. Praesent ornare tempor enim, non vehicula sem auctor id. Mauris tincidunt purus at nulla posuere luctus. In lacus quam, semper egestas aliquam sit amet, finibus viverra quam. Aenean vel auctor quam, tincidunt iaculis nisl. Suspendisse potenti. Curabitur sed lobortis nibh, eu venenatis ligula. Vivamus aliquet orci lacus, semper ornare mi interdum vel. Donec molestie nibh sed est ullamcorper, eget dignissim odio venenatis. Integer at ligula non lorem pharetra lobortis quis sed tortor. Nullam sit amet tellus consectetur, mattis risus sed, maximus leo. Vestibulum scelerisque tortor quis vehicula gravida.</p>
+                    <p className='ProjectsMainElementDescriptionTitle'>Descripción:</p>
+                    <span>Este proyecto es mi <span className='ProjectsMainElementDescriptionPurple'>portafolio personal</span>, una página web diseñada y desarrollada con React.js. La página tiene como objetivo presentar mis <span className='ProjectsMainElementDescriptionPurple'>estudios</span>, <span className='ProjectsMainElementDescriptionPurple'>habilidades</span> y <span className='ProjectsMainElementDescriptionPurple'>experiencia laboral</span> de manera profesional y accesible para aumentar mi alcance.</span>
+                    <p className='ProjectsMainElementDescriptionTitle'>Características:</p>
+                    <span>
+                        -<span className='ProjectsMainElementDescriptionPurple'>Modo Claro y Modo Oscuro: </span>La página web incluye la funcionalidad de cambiar entre un tema claro y un tema oscuro para mejorar la experiencia del usuario y adaptarse a sus preferencias.<br/>
+                        -<span className='ProjectsMainElementDescriptionPurple'>Desarrollo Frontend: </span>El diseño está implementado utilizando HTML y CSS, junto con la lógica de JavaScript proporcionada por React.js.<br/>
+                        -<span className='ProjectsMainElementDescriptionPurple'>Responsive Design: </span>La página es totalmente responsiva, asegurando que se vea y funcione bien en dispositivos de diferentes tamaños, desde móviles hasta computadoras de escritorio.
+                    </span>
+                    <p className='ProjectsMainElementDescriptionTitle'>Tecnologías Utilizadas</p>
+                    <span clas>
+                        -<span className='ProjectsMainElementDescriptionPurple'>React.JS</span><br/>
+                        -<span className='ProjectsMainElementDescriptionPurple'>HTML</span><br/>
+                        -<span className='ProjectsMainElementDescriptionPurple'>CSS</span><br/>
+                        -<span className='ProjectsMainElementDescriptionPurple'>Javascript</span><br/>
+                    </span>
                 </div>
-            </div>
-            <div className='ProjectsMainElement'>
-                <div className='ProjectsMainElementSubTitle'>
-                    <p>DESARROLLO DE CÓDIGO JAVA</p>
-                    <div className='ProjectsMainElementSubTitleCase'>
-                    </div>
-                </div>
-                <div className='ProjectsMainElementPhotoContainer'>
-                    <img className='ProjectsMainElementPhoto' src={photo2}></img>
-                    <img className='ProjectsMainElementPhotoLogo' src={principal_logo}></img>
-                </div>
-                <div className='ProjectsMainElementDescription'>
-                    <p>Nam mi felis, congue vitae massa at, imperdiet facilisis sem. Suspendisse sagittis urna tristique elit ornare mollis. <span className='ProjectsMainElementDescriptionLine'>Maecenas ac ex vitae lacus viverra lacinia molestie commodo quam.</span> Quisque aliquet, odio ut sollicitudin dictum, nibh mi tincidunt leo, vitae blandit sem nisi eu nulla. Praesent ornare tempor enim, non vehicula sem auctor id. Mauris tincidunt purus at nulla posuere luctus. In lacus quam, semper egestas aliquam sit amet, finibus viverra quam. Aenean vel auctor quam, tincidunt iaculis nisl. Suspendisse potenti. Curabitur sed lobortis nibh, eu venenatis ligula. Vivamus aliquet orci lacus, semper ornare mi interdum vel. Donec molestie nibh sed est ullamcorper, eget dignissim odio venenatis. Integer at ligula non lorem pharetra lobortis quis sed tortor. Nullam sit amet tellus consectetur, mattis risus sed, maximus leo. Vestibulum scelerisque tortor quis vehicula gravida.</p>
-                </div>
+                <span className='ProjectsMainElementDescriptionLine'></span>
             </div>
         </article>
     )

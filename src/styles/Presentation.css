@@ -59,25 +59,84 @@
     align-items: center;
     justify-content: flex-start;
     width: 100%;
+    gap: 10%;
+    margin-top: 3%;
 }
 .presentationMainButton{
     display:flex;
     background-color: #604696;
-    padding: 0.8vh;
+    padding: 10px;
     color: #FFFFFF;
     border-radius: 6vh;
     font-size: large;
     font-family: 'BC_Alphapipe_L_Regular';
     justify-content: space-between;
-    margin-right: 5vh;
     text-decoration: none;
-    padding: 0.8vh;
+    margin-right: 0.7vh;
+    align-items: center;
 }
 
-.presentationMainButtonIcon{
-    margin-right: 0.7vh;
+.presentationMainTextTitle{
+    white-space: nowrap;
+}
+
+@media (max-width: 700px){
+    .presentationMainText{
+        width: 95%;
+    }
+    .presentationMainTextBigTitle{
+        font-size: 40px;
+    }
+    .presentationMainButtons{
+        gap:5%;
+    }
+
+}
+
+@media (max-width: 550px){
+    .presentationMainButtons{
+        gap:2%;
+    }
+
 }
 
 @media (max-width: 450px){
+    .presentationMainTextLittleTitle{
+        font-size: 20px;
+    }
+    .presentationMainTextBigTitle{
+        font-size: 30px;
+    }
+    .presentationMainTextSubTitle{
+        font-size: 13px;
+    }
+    .presentationMainButton{
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 3vh;
+    }
     
+    .presentationMainButtons img{
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .presentationMainTextMoreText{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 380px){
+    .presentationMainButtons{
+        flex-direction: column;
+    }
+    .presentationMainButton{
+        margin-bottom: 10px;
+    }
+    .presentationMainTextTitle{
+        white-space: wrap;
+    }
+    .navMainContainerElement a{
+        font-size: 8px;
+    }
 }

@@ -4,7 +4,7 @@ import SecondaryLogo from '../assets/secondary_logo.svg'
 export default function Contact() {
 
     return(
-        <section className='ContactMain'>
+        <section id='Contact' className='ContactMain'>
             <p className='ContactMainTitle'>Contacto</p>
             <div className='ContactMainElements'>
                 <div className='ContactMainElementsLogo'>

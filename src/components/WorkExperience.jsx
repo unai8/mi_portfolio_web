@@ -44,7 +44,7 @@ export default function WorkExperience() {
                 <p className='WorkExperienceMainTimelineElementSecondTitle'>AMIE Consulting · Contrato de prácticas</p>
                 <p className='WorkExperienceMainTimelineElementThirdTitle'>mar. 2022 - may. 2022 · 3 meses</p>
                 <p className='WorkExperienceMainTimelineElementFourthTitle'>Donosti · Presencial</p>
-                <p className='WorkExperienceMainTimelineElementDescription'>-Se añadio funcionalidades adicionales a la plataforma de pago de la empresa utilizando CodeIgniter, Javascript, HTML y CSS. Estas mejoras incluyen la implementación de una tabla interactiva donde los usuarios pueden añadir, editar, eliminar y sumar cantidades de pagos. Esta nueva funcionalidad permite gestionar de manera más eficiente y precisa los pagos realizados, ofreciendo una interfaz intuitiva y fácil de usar que mejora la experiencia del usuario <br/> -Se añadio funcionalidades en una plataforma Industria 4.0</p>
+                <p className='WorkExperienceMainTimelineElementDescription'>-Se añadió funcionalidades adicionales a la plataforma de pago de la empresa utilizando CodeIgniter, Javascript, HTML y CSS. Estas mejoras incluyen la implementación de una tabla interactiva donde los usuarios pueden añadir, editar, eliminar y sumar cantidades de pagos. Esta nueva funcionalidad permite gestionar de manera más eficiente y precisa los pagos realizados, ofreciendo una interfaz intuitiva y fácil de usar que mejora la experiencia del usuario <br/> -Se añadió funcionalidades en una plataforma Industria 4.0</p>
             </div>
         </div>
       </article>
