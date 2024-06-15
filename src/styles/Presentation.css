@@ -38,7 +38,7 @@
     font-family: 'BC_Alphapipe_RB_SemiBold';
 }
 .presentationMainTextBigTitle{
-    color: #604696;
+    color: #444AA7;
     font-size: 50px;
     font-family: 'BC_Alphapipe_RB_SemiBold';
 }
@@ -51,7 +51,7 @@
 
 }
 .presentationMainTextMoreTextPurple{
-    color:#604696;
+    color:#444AA7;
     font-family: 'BC_Alphapipe_RB_SemiBold';
 }
 .presentationMainButtons{
@@ -64,7 +64,7 @@
 }
 .presentationMainButton{
     display:flex;
-    background-color: #604696;
+    background-color: #444AA7;
     padding: 10px;
     color: #FFFFFF;
     border-radius: 6vh;

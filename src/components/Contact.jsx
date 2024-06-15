@@ -1,14 +1,15 @@
 import '../styles/Contact.css'
-import SecondaryLogo from '../assets/secondary_logo.svg'
+import DarkSecondaryLogo from '../assets/secondary_logo_dark.svg'
+import LightSecondaryLogo from '../assets/secondary_logo_light.svg'
 
-export default function Contact() {
+export default function Contact({isLight}) {
 
     return(
         <section id='Contact' className='ContactMain'>
-            <p className='ContactMainTitle'>Contacto</p>
+            <p style={{color: isLight ? 'black' : '#FFFFFF'}} className='ContactMainTitle'>Contacto</p>
             <div className='ContactMainElements'>
                 <div className='ContactMainElementsLogo'>
-                    <img src={SecondaryLogo}/>
+                    <img src={isLight ? DarkSecondaryLogo : LightSecondaryLogo}/>
                 </div>
                 <div className='ContactMainElementsButtoms'>
                     <div className='ContactMainElementsButtomsElement'>

@@ -1,5 +1,5 @@
 import '../styles/AboutMe.css'
-import AboutMePhoto from '../assets/UnaiAlfaro.jpg'
+import AboutMePhoto from '../assets/UnaiAlfaro.png'
 import Javascript from '../assets/javascript.svg'
 import Python from '../assets/python.svg'
 import NodeJS from '../assets/node_js.svg'
@@ -7,19 +7,19 @@ import MifrosoftNet from '../assets/microsoft_net.svg'
 import ReactNative from '../assets/react_native.svg'
 
 
-export default function AboutMe() {
+export default function AboutMe({isLight}) {
     
     return(
         <section id='AboutMe' className='aboutMeMain'>
-            <div className='aboutMeMainTitle'>
+            <div style={{color: isLight ? 'black' : '#FFFFFF'}} className='aboutMeMainTitle'>
                 <p>Sobre mí</p>
             </div>
             <div className='aboutMeMainTitlePhotoDescription'>
                 <img src={AboutMePhoto}/>
-                <p>Desde pequeño jugaba a videojuegos en el ordenador haciendo que este en contacto con la tecnología, este interés me llevó a especializarme en el mundo del desarrollo de software y la ciberseguridad. <br/> A lo largo de mi trayectoria he mejorado mi capacidad analítica y aumentando la habilidad de resolución de problemas en el código. Me apasionan los nuevos desafíos técnicos, explorando soluciones que impulsen el progreso y la eficiencia. <br/> Estoy emocionado por las nuevas oportunidades laborales, ya sea desarrollando aplicaciones innovadores, fortaleciendo la seguridad de la empresa o explorando las últimas tendencias tecnologías, estoy dispuesto a asumir nuevos retos y dejar  una huella positiva.</p>
+                <p style={{color: isLight ? 'black' : '#FFFFFF'}}>Desde pequeño jugaba a videojuegos en el ordenador haciendo que este en contacto con la tecnología, este interés me llevó a especializarme en el mundo del desarrollo de software y la ciberseguridad. <br/> A lo largo de mi trayectoria he mejorado mi capacidad analítica y aumentando la habilidad de resolución de problemas en el código. Me apasionan los nuevos desafíos técnicos, explorando soluciones que impulsen el progreso y la eficiencia. <br/> Estoy emocionado por las nuevas oportunidades laborales, ya sea desarrollando aplicaciones innovadores, fortaleciendo la seguridad de la empresa o explorando las últimas tendencias tecnologías, estoy dispuesto a asumir nuevos retos y dejar  una huella positiva.</p>
             </div>
             <div className='aboutMeMainTitleDescription'>
-                <p>Fuera del ámbito técnico, valoro el trabajo en equipo y la colaboración, creo en la perspectivas diversas para lograr la solución más solida. Me esfuerzo en ser capaz de explorar y encontrar la mejor solución transmitiendo ideas claras y concisas.</p>
+                <p style={{color: isLight ? 'black' : '#FFFFFF'}}>Fuera del ámbito técnico, valoro el trabajo en equipo y la colaboración, creo en la perspectivas diversas para lograr la solución más solida. Me esfuerzo en ser capaz de explorar y encontrar la mejor solución transmitiendo ideas claras y concisas.</p>
             </div>
             <div className='aboutMeMainSkills'>
                 <p>APTITUDES</p>
@@ -39,7 +39,7 @@ export default function AboutMe() {
                 <div className='aboutMeMainTimelineElement'>
                     <p className='aboutMeMainTimelineElementFirstTitle'>ESPECIALIZACIÓN DE CIBERSEGURIDAD</p>
                     <p className='aboutMeMainTimelineElementSecondTitle'>Txurdinaga, Bilbao (sept. 2023 - may. 2024)</p>
-                    <p className='aboutMeMainTimelineElementDescription'>
+                    <p style={{color: isLight ? 'black' : '#FFFFFF'}} className='aboutMeMainTimelineElementDescription'>
                         <b>● Incidentes de Ciberseguridad:</b><br/>
                         &ensp;&ensp;&ensp;-Identificación y análisis de amenazas y vulnerabilidades<br/>
                         &ensp;&ensp;&ensp;-Desarrollo y ejecución de respuesta a incidentes<br/>
@@ -74,7 +74,7 @@ export default function AboutMe() {
                 <div className='aboutMeMainTimelineElement'>
                     <p className='aboutMeMainTimelineElementFirstTitle'>GRADO SUPERIOR EN DESARROLLO DE APLICACIONES WEB</p>
                     <p className='aboutMeMainTimelineElementSecondTitle'>AEG, Donosti (sept. 2022 - jun 2023)</p>
-                    <p className='aboutMeMainTimelineElementDescription'>
+                    <p style={{color: isLight ? 'black' : '#FFFFFF'}} className='aboutMeMainTimelineElementDescription'>
                         <b>● Programas Lógicos de Javascript:</b><br/>
                             &ensp;&ensp;&ensp;-Desarrollo de funcionalidades lógicas utilizando Javascript<br/>
                             &ensp;&ensp;&ensp;-Implementación de algoritmos y estructuras de datos en Javascript<br/>
@@ -103,7 +103,7 @@ export default function AboutMe() {
                 <div className='aboutMeMainTimelineElement'>
                     <p className='aboutMeMainTimelineElementFirstTitle'>GRADO SUPERIOR DE APLICACIONES MULTIPLATAFORMA</p>
                     <p className='aboutMeMainTimelineElementSecondTitle'>Cebanc, Donosti (sept. 2020 - jun 2022)</p>
-                    <p className='aboutMeMainTimelineElementDescription'>
+                    <p style={{color: isLight ? 'black' : '#FFFFFF'}} className='aboutMeMainTimelineElementDescription'>
                         <b>● Sistemas informáticos:</b><br/>
                             &ensp;&ensp;&ensp;-Instalación y configuración de sistemas operativos<br/>
                             &ensp;&ensp;&ensp;-Administración y gestión de usuarios y permisos<br/>
@@ -147,7 +147,7 @@ export default function AboutMe() {
                 <div className='aboutMeMainTimelineElement'>
                     <p className='aboutMeMainTimelineElementFirstTitle'>GRADO MEDIO DE SISTEMAS MICROINFORMÁTICOS Y REDES</p>
                     <p className='aboutMeMainTimelineElementSecondTitle'>Plaiaundi, Irún (sept. 2018 - may. 2020)</p>
-                    <p className='aboutMeMainTimelineElementDescription'>
+                    <p style={{color: isLight ? 'black' : '#FFFFFF'}} className='aboutMeMainTimelineElementDescription'>
                         <b>● Redes locales:</b><br/>
                         &ensp;&ensp;&ensp;-Conocimientos de los componentes de la red local como Router, Switch, Hub, Firewall, Servidores y Repetidores<br/>
                         &ensp;&ensp;&ensp;-Simulación de distintas topologías de red redes en Packet Tracer<br/>

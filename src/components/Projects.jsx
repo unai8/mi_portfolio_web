@@ -1,14 +1,14 @@
 
 import '../styles/Projects.css'
 import photo1 from '../assets/portfolio.jpg'
-import principal_logo from '../assets/principal_logo.svg'
+import principal_logo from '../assets/principal_logo_dark.svg'
 
-export default function Projects() {
+export default function Projects({isLight}) {
 
 
     return(
         <article id='Projects' className="ProjectsMain">
-            <div className='ProjectsMainElementTitle'>
+            <div style={{color: isLight ? 'black' : '#FFFFFF'}} className='ProjectsMainElementTitle'>
                 <p>Proyectos</p>
             </div>
             <div className='ProjectsMainElement'>
@@ -21,8 +21,8 @@ export default function Projects() {
                     <img className='ProjectsMainElementPhoto' src={photo1}></img>
                     <img className='ProjectsMainElementPhotoLogo' src={principal_logo}></img>
                 </div>
-                <div className='ProjectsMainElementDescription'>
-                    <p className='ProjectsMainElementDescriptionTitle'>Descripción:</p>
+                <div style={{color: isLight ? 'black' : '#FFFFFF'}} className='ProjectsMainElementDescription'>
+                    <p  className='ProjectsMainElementDescriptionTitle'>Descripción:</p>
                     <span>Este proyecto es mi <span className='ProjectsMainElementDescriptionPurple'>portafolio personal</span>, una página web diseñada y desarrollada con React.js. La página tiene como objetivo presentar mis <span className='ProjectsMainElementDescriptionPurple'>estudios</span>, <span className='ProjectsMainElementDescriptionPurple'>habilidades</span> y <span className='ProjectsMainElementDescriptionPurple'>experiencia laboral</span> de manera profesional y accesible para aumentar mi alcance.</span>
                     <p className='ProjectsMainElementDescriptionTitle'>Características:</p>
                     <span>

@@ -34,8 +34,12 @@
     justify-content: center;
 }
 
+.navMainContainerIcons img{
+    fill:white
+}
+
 .navMainContainerElement a:hover{
-    color: #604696;
+    color: #444AA7;
 }
 
 .navMainContainerIcons img{

@@ -56,7 +56,7 @@
 .aboutMeMainSkills p{
     font-size: 28px;
     font-family: 'BC_Alphapipe_RB_Bold_Italic';
-    color: #604696;
+    color: #444AA7;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -86,11 +86,11 @@
 
 .underlineText{
     font-family: 'BC_Alphapipe_RB_SemiBold';
-    color: #604696;
+    color: #444AA7;
     
 }
 .aboutMeMainTimeline{
-    border-left: 3px solid #604696;
+    border-left: 3px solid #444AA7;
     padding: 5vh 0vh 5vh 0vh;
     position: relative;
     width: 100%;
@@ -102,7 +102,7 @@
 .aboutMeMainTimeline > p{
     font-size: 28px;
     font-family: 'BC_Alphapipe_RB_Bold_Italic';
-    color: #604696;
+    color: #444AA7;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -113,7 +113,7 @@
 .aboutMeMainTimelineElementFirstTitle{
     position: relative;
     margin: 0 0 0.1vh 0;
-    color: #604696;
+    color: #444AA7;
     font-family: 'BC_Alphapipe_TSB_Bold';
     font-size: 25px;
     font-weight: 100;
@@ -123,7 +123,7 @@
     font-family: 'BC_Alphapipe_RB_SemiBold';
     font-size: 18px;
     margin: 0.2vh 0 0 0;
-    color: #604696;
+    color: #444AA7;
 }
 
 .aboutMeMainTimelineElementDescription{
@@ -144,7 +144,7 @@
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
-    background-color: #604696;
+    background-color: #444AA7;
     border-radius: 50%;
 }
 

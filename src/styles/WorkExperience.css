@@ -34,7 +34,7 @@
 }
 
 .WorkExperienceMainTimeline{
-    border-left: 3px solid #604696;
+    border-left: 3px solid #444AA7;
     padding: 5vh 0vh 5vh 0vh;
     width: 100%;
 }
@@ -47,7 +47,7 @@
 .WorkExperienceMainTimelineElementFirstTitle{
     position: relative;
     margin: 0 0 0.1vh 0;
-    color: #604696;
+    color: #444AA7;
     font-size: 20px;
 }
 
@@ -59,7 +59,7 @@
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
-    background-color: #604696;
+    background-color: #444AA7;
     border-radius: 50%;
 }
 
@@ -90,7 +90,7 @@
     font-weight: 600;
     font-size: 14px;
     margin: 0.2vh 0 0 0;
-    color: #604696;
+    color: #444AA7;
 }
 
 .WorkExperienceMainTimelineElementDescription{

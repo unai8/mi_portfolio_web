@@ -47,14 +47,14 @@
     content: '';
     width: 90%;
     height: 1.3em;
-    background-color: #604696;
+    background-color: #444AA7;
 }
 
 .ProjectsMainElementSubTitle p{
     font-family: 'BC_Alphapipe_L_Regular';
     font-size: 20px;
     white-space: nowrap;
-    color: #604696;
+    color: #444AA7;
     font-weight: 800;
     margin-right: 20px;
     text-transform: uppercase;
@@ -90,7 +90,7 @@
 }
 
 .ProjectsMainElementDescriptionLine{
-    color: #604696;
+    color: #444AA7;
     font-family: 'BC_Alphapipe_RB_SemiBold';
 }
 
@@ -100,7 +100,7 @@
 }
 
 .ProjectsMainElementDescriptionPurple{
-    color: #604696;
+    color: #444AA7;
     font-family: 'BC_Alphapipe_RB_SemiBold';
 }
 
