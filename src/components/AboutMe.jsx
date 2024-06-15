@@ -35,6 +35,9 @@ export default function AboutMe({isLight}) {
                     </div>
                 </div>
             </div>
+            <div className='aboutMeMainTimelineTitle'>
+                <p>ESTUDIOS</p>
+            </div>
             <div className='aboutMeMainTimeline'>
                 <div className='aboutMeMainTimelineElement'>
                     <p className='aboutMeMainTimelineElementFirstTitle'>ESPECIALIZACIÓN DE CIBERSEGURIDAD</p>

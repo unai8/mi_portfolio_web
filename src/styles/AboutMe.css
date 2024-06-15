@@ -148,6 +148,16 @@
     border-radius: 50%;
 }
 
+.aboutMeMainTimelineTitle p{
+    font-size: 28px;
+    font-family: 'BC_Alphapipe_RB_Bold_Italic';
+    color: #444AA7;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media(max-width: 380px){
     .aboutMeMainTitle{
         font-size: 30px;
