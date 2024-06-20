@@ -39,7 +39,7 @@
 }
 
 .navMainContainerElement a:hover{
-    color: #444AA7;
+    color: #444AA7 !important;
 }
 
 .navMainContainerIcons img{

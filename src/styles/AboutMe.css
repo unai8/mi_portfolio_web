@@ -42,15 +42,12 @@
 .aboutMeMainTitlePhotoDescription img{
     min-width: 30%;
     max-width: 30%;
+    filter:drop-shadow(10px 7px 19px #444AA7)
 }
 
 .aboutMeMainTitlePhotoDescription p{
     font-family: 'BC_Alphapipe_L_Regular';
     margin-top: 5%;
-}
-
-.aboutMeMainTitleDescription p{
-    font-family: 'BC_Alphapipe_L_Regular';
 }
 
 .aboutMeMainSkills p{
@@ -156,6 +153,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.aboutMeMainTitlePhotoDescriptionPurple{
+    color: #444AA7;
+    font-family: 'BC_Alphapipe_RB_SemiBold';
 }
 
 @media(max-width: 380px){

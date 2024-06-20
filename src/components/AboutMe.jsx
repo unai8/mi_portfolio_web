@@ -16,10 +16,7 @@ export default function AboutMe({isLight}) {
             </div>
             <div className='aboutMeMainTitlePhotoDescription'>
                 <img src={AboutMePhoto}/>
-                <p style={{color: isLight ? 'black' : '#FFFFFF'}}>Desde pequeño jugaba a videojuegos en el ordenador haciendo que este en contacto con la tecnología, este interés me llevó a especializarme en el mundo del desarrollo de software y la ciberseguridad. <br/> A lo largo de mi trayectoria he mejorado mi capacidad analítica y aumentando la habilidad de resolución de problemas en el código. Me apasionan los nuevos desafíos técnicos, explorando soluciones que impulsen el progreso y la eficiencia. <br/> Estoy emocionado por las nuevas oportunidades laborales, ya sea desarrollando aplicaciones innovadores, fortaleciendo la seguridad de la empresa o explorando las últimas tendencias tecnologías, estoy dispuesto a asumir nuevos retos y dejar  una huella positiva.</p>
-            </div>
-            <div className='aboutMeMainTitleDescription'>
-                <p style={{color: isLight ? 'black' : '#FFFFFF'}}>Fuera del ámbito técnico, valoro el trabajo en equipo y la colaboración, creo en la perspectivas diversas para lograr la solución más solida. Me esfuerzo en ser capaz de explorar y encontrar la mejor solución transmitiendo ideas claras y concisas.</p>
+                <p style={{color: isLight ? 'black' : '#FFFFFF'}}>Desde pequeño jugaba a <span className='aboutMeMainTitlePhotoDescriptionPurple'>videojuegos en el ordenador</span> haciendo que este en <span className='aboutMeMainTitlePhotoDescriptionPurple'>contacto con la tecnología</span>, este interés me llevó a especializarme en el mundo del <span className='aboutMeMainTitlePhotoDescriptionPurple'>desarrollo de software y la ciberseguridad.</span> <br/><br/> A lo largo de mi trayectoria he mejorado mi <span className='aboutMeMainTitlePhotoDescriptionPurple'>capacidad analítica</span> y aumentando la <span className='aboutMeMainTitlePhotoDescriptionPurple'>habilidad de resolución de problemas</span> en el código. Me apasionan los <span className='aboutMeMainTitlePhotoDescriptionPurple'>nuevos desafíos técnicos</span>, explorando <span className='aboutMeMainTitlePhotoDescriptionPurple'>soluciones que impulsen el progreso y la eficiencia</span>. <br/><br/> Estoy emocionado por las <span className='aboutMeMainTitlePhotoDescriptionPurple'>nuevas oportunidades laborales</span>, ya sea desarrollando aplicaciones innovadores, fortaleciendo la <span className='aboutMeMainTitlePhotoDescriptionPurple'>seguridad de la empresa</span> o explorando las <span className='aboutMeMainTitlePhotoDescriptionPurple'>últimas tendencias tecnologías</span>, estoy dispuesto a asumir <span className='aboutMeMainTitlePhotoDescriptionPurple'>nuevos retos</span> y dejar una <span className='aboutMeMainTitlePhotoDescriptionPurple'>huella positiva.</span><br/><br/>Fuera del ámbito técnico, valoro el <span className='aboutMeMainTitlePhotoDescriptionPurple'>trabajo en equipo y la colaboración</span>, creo en la <span className='aboutMeMainTitlePhotoDescriptionPurple'>perspectivas diversas</span> para lograr la <span className='aboutMeMainTitlePhotoDescriptionPurple'>solución más solida</span>. Me esfuerzo en ser capaz de <span className='aboutMeMainTitlePhotoDescriptionPurple'>explorar y encontrar la mejor solución</span> transmitiendo <span className='aboutMeMainTitlePhotoDescriptionPurple'>ideas claras y concisas</span>.</p>
             </div>
             <div className='aboutMeMainSkills'>
                 <p>APTITUDES</p>
@@ -35,10 +32,10 @@ export default function AboutMe({isLight}) {
                     </div>
                 </div>
             </div>
-            <div className='aboutMeMainTimelineTitle'>
+            <div  className='aboutMeMainTimelineTitle'>
                 <p>ESTUDIOS</p>
             </div>
-            <div className='aboutMeMainTimeline'>
+            <div style={{borderLeft: isLight ? '3px solid #444AA7' : '3px solid #FFFFFF'}} className='aboutMeMainTimeline'>
                 <div className='aboutMeMainTimelineElement'>
                     <p className='aboutMeMainTimelineElementFirstTitle'>ESPECIALIZACIÓN DE CIBERSEGURIDAD</p>
                     <p className='aboutMeMainTimelineElementSecondTitle'>Txurdinaga, Bilbao (sept. 2023 - may. 2024)</p>
