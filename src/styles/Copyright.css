@@ -1,0 +1,37 @@
+@font-face{
+    font-family: 'BC_Alphapipe_RB_SemiBold';
+    src: local('BC_Alphapipe_RB_SemiBold'), url(../fonts/BC_Alphapipe_RB_SemiBold.ttf);
+}
+
+@font-face{
+    font-family: 'BC_Alphapipe_L_Regular';
+    src: local('BC_Alphapipe_L_Regular'), url(../fonts/BC_Alphapipe_L_Regular.ttf);
+}
+
+.CopyrightMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CopyrightMain p{
+    font-family: 'BC_Alphapipe_L_Regular';
+}
+
+@media (max-width: 550px){
+    .CopyrightMain p{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 350px){
+    .CopyrightMain p{
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 1200px){
+    .CopyrightMain p{
+        font-size: 20px;
+    }
+}

@@ -177,3 +177,32 @@
         width: 100px;
     }
 }
+
+@media (min-width:1200px){
+    .aboutMeMainTitle p{
+        font-size: 70px;
+    }
+    .aboutMeMainTitlePhotoDescription p{
+        font-size: 25px;
+    }
+    .aboutMeMainSkills p{
+        font-size: 40px;
+    }
+    .aboutMeMainTimelineTitle p{
+        font-size: 40px;
+    }
+    .aboutMeMainTimelineElementFirstTitle{
+        font-size: 55px;
+    }
+    .aboutMeMainTimelineElementSecondTitle{
+        font-size: 30px;
+    }
+    .aboutMeMainTimelineElementDescription{
+        font-size: 25px;
+    }
+    .aboutMeMainTimelineElementFirstTitle::before{
+        left: -71px;
+        width: 40px;
+        height: 40px;
+    }
+}

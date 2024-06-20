@@ -118,3 +118,21 @@
         font-size: 14px;
     }
 }
+
+@media (min-width:1200px){
+    .ProjectsMainElementTitle p{
+        font-size: 70px;
+    }
+    .ProjectsMainElementSubTitle p{
+        font-size: 30px;
+    }
+    .ProjectsMainElementSubTitleCase{
+        height: 1.5em;
+    }
+    .ProjectsMainElementDescription p{
+        font-size: 30px;
+    }
+    .ProjectsMainElementDescription span{
+        font-size: 25px;
+    }
+}

@@ -73,3 +73,12 @@
         gap: 20px;
     }
 }
+
+@media(min-width: 1200px){
+    .ContactMainTitle{
+        font-size: 70px;
+    }
+    .ContactMainElementsButtomsElement a{
+        font-size: 25px;
+    }
+}

@@ -29,8 +29,6 @@
 }
 .presentationMainText{
     align-self: flex-start;
-
-    
 }
 .presentationMainTextLittleTitle{
     font-size: 30px;
@@ -138,5 +136,28 @@
     }
     .navMainContainerElement a{
         font-size: 8px;
+    }
+}
+
+@media (min-width:1200px){
+    .presentationMainTextBigTitle{
+        font-size: 90px;
+    }
+    .presentationMainTextLittleTitle{
+        font-size: 50px;
+    }
+    .presentationMainTextSubTitle{
+        font-size: 30px;
+    }
+    .presentationMainTextMoreText{
+        font-size: 25px;
+    }
+    .presentationMainButton{
+        font-size: 25px;
+        padding: 15px;
+    }
+    .presentationMainButton img{
+        width: 25px;
+        margin-right: 2px;
     }
 }

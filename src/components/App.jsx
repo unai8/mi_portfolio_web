@@ -4,6 +4,7 @@ import WorkExperience from './WorkExperience'
 import Projects from './Projects'
 import AboutMe from './AboutMe'
 import Contact from './Contact'
+import Copyright from './Copyright'
 import '../styles/App.css'
 import { useState } from 'react'
 
@@ -19,6 +20,7 @@ export default function App() {
       <Projects isLight={isLight}/>
       <AboutMe isLight={isLight}/>
       <Contact isLight={isLight}/>
+      <Copyright isLight={isLight}/>
     </div>
   )
 }
